@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+/* variables css */
+:root {
+    --header-height: 3.5rem;
+
+    /* color */
+    --first-color: hsl(38, 69%, 59%);
+    --text-color: hsl(38, 8%, 8%);
+
+    /* font and typography */
+    --body-font: 'Space Grotesk', sans-serif;
+    --biggest-fytont-size: 1.5rem;;
+    --normal-font-size: 1rem;;
+    --smaller-font-sizie: .75rem/;
+}
+
