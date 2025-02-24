@@ -27,7 +27,7 @@
 .trending__discover p {
     font-size: 18px;
     font-weight: 500;
-    font-family: var(--plus-jakarta-sans);
+    font-family: var(--plus-jakarta-sans), sans-serif;
 
     text-transform: uppercase;
     color: #fff;
