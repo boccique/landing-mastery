@@ -1,1 +1,4 @@
-alert('Hello, world!')
+"use strict";
+
+alert('Hello, world!');
+["Blob", "Clob"].forEach(alert);
