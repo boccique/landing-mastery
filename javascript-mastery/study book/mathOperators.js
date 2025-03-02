@@ -21,11 +21,17 @@ alert(`If we raise to a power ${calculateX} of ${calculateY} we will get the res
 alert(`Residue will be equal to: ${calculateX % calculateY}`);
 
 let firstName = prompt(`Enter your first name:`);
-let secondName = prompt(`Enter your second name`);
+let secondName = prompt(`Enter your second name:`);
 firstName = String(firstName);
 secondName = String(secondName);
 confirm(`Is your full name is "${firstName + ' ' + secondName}"?`);
 
 let stokeToNumber = prompt(`Enter whatever stroke you like to see it comes number!`);
-alert(`This is your positive number${+stokeToNumber}. To make you sure let's check its type: ${typeof(+stokeToNumber)}`);
+alert(`This is your stroke ${stokeToNumber} as the type of: ${typeof(+stokeToNumber)}`);
+
+let numberA = 214;
+let numberB = 152;
+let numberC = 1203 - (numberB / numberA);
+alert(`Number C equals to: ${numberC}!`);
+
 
