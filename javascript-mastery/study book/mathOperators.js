@@ -26,12 +26,14 @@ firstName = String(firstName);
 secondName = String(secondName);
 confirm(`Is your full name is "${firstName + ' ' + secondName}"?`);
 
-let stokeToNumber = prompt(`Enter whatever stroke you like to see it comes number!`);
-alert(`This is your stroke ${stokeToNumber} as the type of: ${typeof(+stokeToNumber)}`);
+let stokeToNumber = +prompt(`Enter whatever stroke you like to see it comes number!`);
+alert(`This is your stroke ${stokeToNumber} as the type of: ${typeof(stokeToNumber)}`);
 
 let numberA = 214;
 let numberB = 152;
 let numberC = 1203 - (numberB / numberA);
 alert(`Number C equals to: ${numberC}!`);
 
-
+let twelve = 12;
+twelve **= 2;
+console.log(twelve);
