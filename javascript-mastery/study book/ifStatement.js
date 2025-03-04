@@ -8,11 +8,10 @@ if(age >= 100) {
     alert(`You are TOO YOUNG to enter this site!`);
 }
 
-/*
 let message = (age >= 100) ? `You are TOO OLD to enter this site!`:
         (age >= 18) ? `You are welcome to enter this site!`:
-        (0 < age < 18) ? `You are TOO YOUNG to enter this site!`: `false`
-alert(message);*/
+        (0 < age < 18) ? `You are TOO YOUNG to enter this site!`: `false`;
+alert(message);
 
 
 let trueNameOfJs = prompt(`Enter official name of JavaScript:`);
@@ -20,10 +19,17 @@ let trueNameOfJs = prompt(`Enter official name of JavaScript:`);
 if(trueNameOfJs === `ECMAScript`){
     alert(`All right!`);
 } else {
-    alert(`Don't you know? It is ECMAScript!`)
+    alert(`Don't you know? It is ECMAScript!`);
 }
 
 let a = prompt(`Enter your number "a":`);
 let b = prompt(`Enter your number "b":`);
-let result = (a + b < 4) ? `Too low` : "Too much"
+let result = (a + b < 4) ? `Too low` : "Too much";
+alert(result);
 
+let login;
+login = prompt(`Enter your login`);
+login = (login === `Worker`) ? `Hello there!` :
+        (login === `Director`) ? `Good time of the time!` :
+        (login === ``) ? `Who are you then 0-0 ?` : ``;
+alert(login);
