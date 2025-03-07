@@ -29,4 +29,21 @@ if(counter <= 3){
     console.log(`User made it through ${counter} attempts.`);
 }
 
+let X;
+let Y = 0;
+for (X = 0; X < 11; X++){
+    console.log(X);
+}
 
+do {
+    console.log(++Y);
+} while (Y < 11)
+
+for (X = 0; X < 50; X++){
+    if(X === 13){
+        continue;
+    }
+    else {
+        console.log(X);
+    }
+}
