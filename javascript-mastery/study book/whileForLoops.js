@@ -1,4 +1,5 @@
 // while and for loops
+/*
 
 let name = false;
 let counter = 0;
@@ -47,3 +48,24 @@ for (X = 0; X < 50; X++){
         console.log(X);
     }
 }
+*/
+
+let guessTheNumber = +prompt(`Enter your number to guess which one is the lucky one for today:`);
+switch (guessTheNumber) {
+    case 25:
+        alert(`All right! You are good at peaking! It is lucky number and you found it.`);
+        break;
+    case 0:
+        alert(`Too less, peak a bit above.`);
+        break;
+    case 100:
+        alert(`This is too much to peak. Peak lower.`);
+        break;
+    default:
+        alert(`Your number out of the range at all. Try one more time.`);
+}
+
+
+
+
+
