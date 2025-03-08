@@ -27,3 +27,8 @@ function createHelloWorld (userNameGreeting, text = ` expresses nothing.`) {
 }
 
 createHelloWorld('Yuri');
+
+function helloEveryOne (One = `mate`) {
+    console.log(`Hello there, ${One}!`);
+}
+helloEveryOne(`Vladimir`);
