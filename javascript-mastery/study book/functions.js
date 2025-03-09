@@ -32,3 +32,9 @@ function helloEveryOne (One = `mate`) {
     console.log(`Hello there, ${One}!`);
 }
 helloEveryOne(`Vladimir`);
+
+function difficultCalc(x, y, z){
+    return x + 1353 - y/x - z**4 + y;
+}
+let result = difficultCalc(12, 34, 1);
+console.log(result)
