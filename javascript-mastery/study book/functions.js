@@ -37,4 +37,53 @@ function difficultCalc(x, y, z){
     return x + 1353 - y/x - z**4 + y;
 }
 let result = difficultCalc(12, 34, 1);
-console.log(result)
+console.log(result);
+
+function checkAge(age){
+    if (age > 18) {
+        return true;
+    } else {
+        return confirm(`Are your parents known of this?`);
+    }
+}
+
+checkAge(28);
+
+function checkAgeQue(age) {
+    return (age > 18) ? true : confirm(`Are your parents aware of this?`);
+}
+
+checkAgeQue(29);
+
+function checkAgeOr(age) {
+    return (age > 28) || confirm(`Are your parents aware of this?`)
+}
+
+checkAgeOr(29);
+
+function checkName(name) {
+    if(name === 'Pavel'){
+        return true;
+    } else {
+        return name = prompt(`What is your name?`);
+    }
+}
+
+let resultOfName = checkName('');
+console.log(resultOfName);
+
+function nameChecker(name){
+    return name === "Anatoly" ? true : prompt(`What is your actual name?`);
+}
+
+let actualName = nameChecker(`Arcadii`);
+console.log(actualName);
+
+
+function nameCheckerOr(name) {
+    return name === "Sunny" || confirm(`Is it you, Sunny?`);
+}
+let actualNameOr = nameCheckerOr(``);
+console.log(actualNameOr);
+
+
