@@ -87,3 +87,30 @@ let actualNameOr = nameCheckerOr(``);
 console.log(actualNameOr);
 
 
+function getTernal(ternal) {
+    return ternal === `?` ? true : ternal = prompt(`What is ternal?`);
+}
+
+let external = getTernal(`?`);
+console.log(external);
+external = getTernal(`||`);
+console.log(external);
+
+function compareNumbers(x, y){
+    if(x > y){
+        alert(`${x} > ${y}`);
+    }
+    else if(x < y){
+        alert(`${x} > ${y}`)
+    }
+    else{
+        alert(`${x} = ${y}`)
+    }
+}
+compareNumbers(3, -1)
+
+function findMin(x, y) {
+    return x < y ? x : y;
+}
+let minResult =findMin(2, 5);
+console.log(minResult);
