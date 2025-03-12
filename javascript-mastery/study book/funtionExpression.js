@@ -28,4 +28,21 @@ function showCancel() {
 
 ask(`Are you agreed?`, showOk, showCancel);
 
+function hello(callback) {
+    console.log(`Hello`);
+    callback();
+}
+function goodbye(){
+    console.log(`Goodbye`);
+}
+hello(goodbye)
 
+function verifyNumber(callback){
+    let number;
+    return number === `8-922-223-22-12` || callback();
+}
+
+function denied(){
+    console.log(`Invalid number, try again.`)
+}
+verifyNumber(denied);
