@@ -46,3 +46,21 @@ function denied(){
     console.log(`Invalid number, try again.`)
 }
 verifyNumber(denied);
+
+function maltoGET(malto, callback){
+    malto = ``
+    if(malto === `maxCrazik2322@fake.com`){
+        return console.log(malto);
+    } else {
+        unfiledMalto();
+        return `invalid data`;
+    }
+}
+
+function unfiledMalto() {
+    let malto = maltoGET();
+    console.log(malto);
+    console.log(`No access has been provided.`);
+}
+
+maltoGET(unfiledMalto)
