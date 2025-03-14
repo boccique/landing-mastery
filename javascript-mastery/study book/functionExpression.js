@@ -48,19 +48,35 @@ function denied(){
 verifyNumber(denied);
 
 function maltoGET(malto, callback){
-    malto = ``
     if(malto === `maxCrazik2322@fake.com`){
         return console.log(malto);
     } else {
-        unfiledMalto();
+        callback();
         return `invalid data`;
     }
 }
 
 function unfiledMalto() {
-    let malto = maltoGET();
-    console.log(malto);
     console.log(`No access has been provided.`);
 }
 
-maltoGET(unfiledMalto)
+maltoGET(`maxCrazik2322@fake.com`, unfiledMalto);
+
+/*
+function ask(que, yes, no) {
+    if (confirm(que)){
+        return yes();
+    } else {
+        return no();
+    }
+}
+
+function queVerified() {
+    return `You approved the action`;
+}
+
+function queDenied() {
+    return `You denied the action`;
+}
+
+ask(`Are you agree to continue?`, queVerified, queDenied);*/
