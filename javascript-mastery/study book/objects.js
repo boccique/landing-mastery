@@ -6,12 +6,11 @@ let box = {
 
 };
 
-// delete box.hasKey
 console.log(box["rare usage crap"]);
 console.log(box);
 
-let key = prompt(`What do you want to know about this storage?`, `paper`);
-alert(box[key]);
+let storage = prompt(`What do you want to know about this storage?`, `paper`);
+alert(box[storage]);
 
 box.rows = 21;
 console.log(`From now on rows equal to: ${box.rows}`);
@@ -27,8 +26,10 @@ let pocket = {
 console.log(`We can put only ${pocket[vagatable]} ${vagatable}s 
              in your pocket 'till it will be full.`);
 
-
-
+// for key in object
+for (let key in box) {
+    console.log(box[key]);
+}
 
 
 
