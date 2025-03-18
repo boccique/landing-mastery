@@ -31,6 +31,7 @@ for (let key in box) {
     console.log(box[key]);
 }
 
+delete["rare usage crap"];
 
 
 
