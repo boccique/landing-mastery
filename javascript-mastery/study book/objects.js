@@ -33,11 +33,34 @@ for (let key in box) {
 
 delete["rare usage crap"];
 
+let unboxing = box;
+unboxing.papa = 21;
+console.log(box.papa);
+
+for (let boxing in unboxing){
+    console.log(`${boxing}: ${box[boxing]}`);
+}
+
+let pack = {
+    taxes: `10%`,
+    poor: 20,
+    equality: `60%`,
+    sizes: {
+        height: 100,
+        width: 200,
+    }
+}
+
+// let clone = {};
+let clone = Object.assign({}, pack);
+for (let key in pack) {
+    clone[key] = pack[key];
+}
 
 
+console.log(clone.sizes.height);
 
-
-
-
+Object.assign(box, pack)
+console.log(box);
 
 
