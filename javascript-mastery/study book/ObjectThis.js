@@ -12,3 +12,12 @@ user.sayHello = function(){
 
 user.sayHello();
 user.sayBye();
+
+let someone = {
+    name: `Boris`,
+    sayHi() {
+        console.log(`${this.name} is saying hello to you`);
+    },
+};
+
+someone.sayHi();
