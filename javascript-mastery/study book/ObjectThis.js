@@ -21,3 +21,38 @@ let someone = {
 };
 
 someone.sayHi();
+
+// Let's make a calc
+
+let calculator = {
+    read(a, b) {
+        calculator.a = a;
+        calculator.b = b;
+    },
+    sum() {
+        console.log(this.a + this.b);
+    },
+    mul() {
+        console.log(this.a * this.b);
+    },
+};
+
+calculator.read(1, 2);
+calculator.sum();
+calculator.mul();
+console.log(`a = ${calculator.a} b = ${calculator.b}`)
+
+function Person(name, age) {
+    this.name = name;
+    this.age = age;
+}
+
+let newUser = new Person(`Bread`, 24);
+console.log(newUser.age);
+
+
+
+
+
+
+
