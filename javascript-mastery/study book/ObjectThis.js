@@ -50,9 +50,36 @@ function Person(name, age) {
 let newUser = new Person(`Bread`, 24);
 console.log(newUser.age);
 
+// One more calc
 
+let calculatorX = {
+    read() {
+        this.x = +prompt(`Enter your first number "X"`);
+        this.y = +prompt(`Enter your first number "Y"`);
+    },
+    sum(){
+        console.log(`Summary is ${this.x + this.y}`);
+    },
+    mul(){
+        console.log(`Multiplication is ${this.x * this.y}`)
+    },
+}
 
+calculatorX.read();
+calculatorX.sum();
+calculatorX.mul();
 
+// Accumulator function
 
+function Accumulator(startingValue) {
+    this.value = startingValue;
 
+    this.read = function () {
+        this.value += +prompt(`How many do you want to add?`, 0);
+    };
+}
 
+let accumulator = new Accumulator(0);
+accumulator?.read();
+accumulator?.read();
+console.log(`Summary is "${accumulator.value}"`);
