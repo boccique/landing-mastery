@@ -14,6 +14,11 @@ for (let key in user){
 console.log(id === newId);
 console.log(`${Symbol.keyFor(newId)}, ${newId.description}`);
 
+
+// You need to fix the function in section where it should
+// provide the requested name and age, now here is an error,
+// object `userName` does not get any value
+
 let userName = {
     name: this.name,
     age: this.age,
