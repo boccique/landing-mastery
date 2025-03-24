@@ -15,9 +15,6 @@ console.log(id === newId);
 console.log(`${Symbol.keyFor(newId)}, ${newId.description}`);
 
 
-// You need to fix the function in section where it should
-// provide the requested name and age, now here is an error,
-// object `userName` does not get any value
 
 let userName = {
     name: this.name,
@@ -28,15 +25,18 @@ let userName = {
 };
 
 
-let nameRequest = prompt(`Who are you?`);
-let ageRequest = prompt(`What's your age?`);
-
-if (nameRequest === `James`) {
-    userName.sayHello(`James`);
-} else {
-    userName.sayHello(`Alex`);
-}
+let nameRequest = prompt(`Who are you?`, '');
+let ageRequest = +prompt(`What's your age?`, 0);
 
 userName.name = nameRequest;
 userName.age = ageRequest;
+
+userName.sayHello();
+
+let experiment = {
+    host: this.host,
+    net: this.net,
+};
+
+console.log(userName - experiment);
 
