@@ -14,9 +14,13 @@ console.log(Math.ceil(user.number));
 console.log(Math.round(user.number));
 console.log(Math.trunc(user.number));
 
+function missHer(days) {
+    let timeToWait = days;
+    for ( i in timeToWait) console.log(`${timeToWait} days left`);
 
+}
 
-
+missHer(10);
 
 
 
