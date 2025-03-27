@@ -37,7 +37,7 @@ function readNumber() {
     }
 }
 
-readNumber()
+readNumber();
 
 
 
