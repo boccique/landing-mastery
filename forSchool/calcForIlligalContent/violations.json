@@ -1,0 +1,81 @@
+{
+  "piracy": {
+    "description": "Сайты, распространяющие нелегальный видеоконтент (фильмы, сериалы, аниме).",
+    "law": "ст. 146 УК РФ (нарушение авторских прав)",
+    "finePerson": "до 500 000 руб. или лишение свободы до 2 лет",
+    "fineCompany": "до 5 млн руб.",
+    "websites": [
+      "https://kinogo.co/",
+      "https://bigcinema.tv/",
+      "https://kinokrad.net/",
+      "https://filmix.net/",
+      "https://kinobar.net/",
+      "https://zfilm-hd.net/",
+      "https://seasonvar.ru/",
+      "https://lostfilmonline.ru/",
+      "https://kino-v-online.tv/",
+      "https://kinotochka.net/",
+      "https://gachi-lordfilms.ru/"
+    ]
+  },
+  "torrent_sites": {
+    "description": "Торрент-трекеры и сайты с пиратскими раздачами.",
+    "law": "ст. 146 УК РФ, ст. 1252 ГК РФ",
+    "finePerson": "до 500 000 руб. или лишение свободы до 2 лет",
+    "fineCompany": "до 5 млн руб.",
+    "websites": [
+      "https://rutracker.org/",
+      "https://tfile.me/",
+      "https://nnm-club.me/",
+      "https://fast-torrent.ru/",
+      "https://new-tor.org/",
+      "https://cxz.to/",
+      "https://tivix.net/",
+      "https://tfilm.me/",
+      "https://vtorrents.net/",
+      "https://ostfilm.tv/"
+    ]
+  },
+  "illegal_books": {
+    "description": "Сайты с пиратскими электронными и аудиокнигами.",
+    "law": "ст. 146 УК РФ, ст. 1270 ГК РФ",
+    "finePerson": "до 200 000 руб.",
+    "fineCompany": "до 2 млн руб.",
+    "websites": [
+      "https://lib.rus.ec/",
+      "https://asbook.net/",
+      "https://mirknig.com/",
+      "https://audioknigi.club/",
+      "https://www.litmir.co/",
+      "https://loveread.ws/",
+      "https://goldenshara.org/",
+      "https://disneyboom.ru/"
+    ]
+  },
+  "illegal_music": {
+    "description": "Сайты с нелегальной музыкой и аудиотреками.",
+    "law": "ст. 146 УК РФ, ст. 1301 ГК РФ",
+    "finePerson": "до 200 000 руб.",
+    "fineCompany": "до 2 млн руб.",
+    "websites": [
+      "https://zaycev.net/",
+      "https://mp3ostrov.com/",
+      "https://muzofon.com/",
+      "https://vk-sound.ru/",
+      "https://www.audiopoisk.com/"
+    ]
+  },
+  "illegal_tv": {
+    "description": "Сайты с нелегальными трансляциями ТВ и спортивных событий.",
+    "law": "ст. 146 УК РФ, ст. 1252 ГК РФ",
+    "finePerson": "до 500 000 руб.",
+    "fineCompany": "до 5 млн руб.",
+    "websites": [
+      "https://torrent-tv.ru/",
+      "https://tv-filmi.net/",
+      "https://fanserials.tv/",
+      "https://kino-family.ru/",
+      "https://hdfilms.tv/"
+    ]
+  }
+}
