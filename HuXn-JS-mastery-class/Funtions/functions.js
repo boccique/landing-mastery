@@ -1,17 +1,14 @@
-const person = {
-    firstName: "John",
-    lastName: "Doe",
-    age: 21,
-    location: ['Planet', 'Earth'],
-    applied: false,
-};
+// Return -> function
+function add(x, y) {
+    return x + y;
+}
 
-console.log(`${person.firstName} is not applied to the job? ${person.applied}`);
+let res = add(10, 20);
+console.log(res)
 
-const ifJobHasGotten = {
-    firstJob: 'Freelance',
-    secondJob: 'English Tutor',
-    wage: 20000,
-};
 
-console.log(`What is your substantial wage? My medium wage is ${ifJobHasGotten.wage}`);
+function myFunction(z, i) {
+    return z * i;
+}
+
+console.log(myFunction(14, 1));
